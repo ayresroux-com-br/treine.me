@@ -53,8 +53,21 @@ section p {
   margin: 40px 0;
 }
 button {
+  color: white;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
+  background: #69b99d;
+  padding: 14px 32px 15px;
+  border: 0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background: #4ea788;
 }
 footer {
   font-size: 14px;
